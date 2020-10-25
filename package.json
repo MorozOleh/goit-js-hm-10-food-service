@@ -8,7 +8,7 @@
     "build": "parcel build src/index.html --public-url /goit-js-hm-10-food-service/",
     "deploy": "gh-pages -d dist",
     "predeploy": "npm run build",
-    "clean" : "gh-pages-clean"
+    "clean": "gh-pages-clean"
   },
   "repository": {
     "type": "git",
@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/MorozOleh/goit-js-hm-10-food-service/issues"
   },
-  "homepage": "https://MorozOleh.github.io/goit-js-hm-10-food-service",
+  "homepage": "https://morozoleh.github.io/goit-js-hm-10-food-service",
   "dependencies": {
     "parcel-plugin-handlebars-precompile": "^1.0.2"
   },
