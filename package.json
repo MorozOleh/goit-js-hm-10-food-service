@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/MorozOleh/goit-js-hm-10-food-service/issues"
   },
-  "homepage": "https://morozoleh.github.io/goit-js-hm-10-food-service",
+  "homepage": "https://morozoleh.github.io/goit-js-hm-10-food-service/",
   "dependencies": {
     "parcel-plugin-handlebars-precompile": "^1.0.2"
   },
