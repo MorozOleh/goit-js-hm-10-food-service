@@ -1,6 +1,6 @@
 
-export const body = document.querySelector('body');
-export const theme = document.querySelector('.theme-switch__toggle');
+const body = document.querySelector('body');
+const themeSwitchToggle = document.querySelector('.theme-switch__toggle');
 
 const Theme = {
   LIGHT: 'light-theme',
@@ -9,8 +9,7 @@ const Theme = {
 
 const { LIGHT, DARK } = Theme;
 
-
-theme.addEventListener('change', onChangeChecked);
+themeSwitchToggle.addEventListener('change', onChangeChecked);
 function onChangeChecked(e) {
   // localStorage.setItem('checked', e.target.checked);
 
@@ -41,10 +40,10 @@ if (getValue === null) {
 
 if (getValue === DARK) {
   body.classList.add(DARK);
-  theme.checked = true;
+  themeSwitchToggle.checked = true;
 }
 
 if (getValue === LIGHT) {
   body.classList.add(LIGHT);
-  theme.checked = false;
+  themeSwitchToggle.checked = false;
 }
