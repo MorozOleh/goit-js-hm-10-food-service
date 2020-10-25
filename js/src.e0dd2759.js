@@ -77,6 +77,6 @@ var e,t=arguments[3];!function(t,r){"object"==typeof exports&&"object"==typeof m
 },{"handlebars/dist/handlebars.runtime":"pAws"}],"hZuh":[function(require,module,exports) {
 "use strict";var e=t(require("./main.json")),r=t(require("../templates/templateCard.hbs"));function t(e){return e&&e.__esModule?e:{default:e}}var u=document.querySelector(".js-menu"),a=(0,r.default)(e.default);u.innerHTML=a;
 },{"./main.json":"D5w0","../templates/templateCard.hbs":"tek3"}],"Focm":[function(require,module,exports) {
-"use strict";require("posthtml-include"),require("./css/styles.css"),require("./js/toggleTheme"),require("./js/menuTemplate");
+"use strict";require("./css/styles.css"),require("./js/toggleTheme"),require("./js/menuTemplate");var e=require("posthtml-include");e();
 },{"posthtml-include":"ljOT","./css/styles.css":"rDCW","./js/toggleTheme":"SFjR","./js/menuTemplate":"hZuh"}]},{},["Focm"], null)
-//# sourceMappingURL=/goit-js-hm-10-food-service/src.ce0d5564.js.map
+//# sourceMappingURL=/goit-js-hm-10-food-service/src.e0dd2759.js.map
